@@ -1,6 +1,13 @@
-# Initializing the repo
+from fastapi import FastAPI
+from Functions import Return1
 
-def starting():
-    print("We are starting the repo")
+app = FastAPI()
 
-starting()
+@app.get("/result")
+async def GetResult():
+    return Return1()
+
+
+
+# python -m venv venv
+# venv\Scripts\activate

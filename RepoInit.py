@@ -8,6 +8,4 @@ async def GetResult():
     return Return1()
 
 
-
-# python -m venv venv
-# venv\Scripts\activate
+# poetry run fastapi dev RepoInit.py 

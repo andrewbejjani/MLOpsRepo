@@ -1,2 +1,2 @@
-def Return1():
-    return {"The result is": 1}
+def MultFunc(x: float, y: float):
+    return x * y
